@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>The Evolution of Nursing</title>
+
+    <link rel="stylesheet"
+          href="style.css">
+</head>
+
+<body>
+
+<header class="page-header">
+
+    <h1>THE EVOLUTION OF NURSING</h1>
+
+    <p>A Historical Timeline - David Tripanier Jr.</p>
+
+    <div class="legend">
+
+        <span>
+            <span class="legend-circle interactive-circle"></span>
+            Click for More Info
+        </span>
+        
+        <span>
+            <span class="legend-circle biography-circle"></span>
+            Click for Biography
+        </span>
+        <span>
+            <span class="legend-circle static-circle"></span>
+            Historical milestone
+        </span>
+
+    </div>
+
+</header>
+
+
+<main>
+
+    <section class="timeline-section">
+
+        <div class="timeline-wrapper">
+
+            <div class="timeline-line"></div>
+
+            <div class="year-marker"
+                 style="left: 0%;">
+                <span>1200</span>
+            </div>
+
+            <div class="year-marker"
+                 style="left: 11%;">
+                <span>1400</span>
+            </div>
+
+            <div class="year-marker"
+                 style="left: 24%;">
+                <span>1600</span>
+            </div>
+
+            <div class="year-marker"
+                 style="left: 43%;">
+                <span>1800</span>
+            </div>
+
+            <div class="year-marker"
+                 style="left: 100%;">
+                <span>2000</span>
+            </div>
+
+
+            <div id="timeline-items"></div>
+
+        </div>
+
+    </section>
+
+
+    <section class="instructions">
+
+        <p>
+            Select a highlighted point to learn more.
+        </p>
+
+    </section>
+
+
+    <section class="references">
+
+        <button id="references-button">
+            References
+        </button>
+
+        <div id="references-content"
+             class="references-content">
+        </div>
+
+    </section>
+
+</main>
+
+
+<!-- POPUP -->
+
+<div id="modal"
+     class="modal">
+
+    <div class="modal-backdrop"></div>
+
+    <div class="modal-window">
+
+        <button id="modal-close"
+                class="modal-close"
+                aria-label="Close">
+            ×
+        </button>
+
+
+        <div class="modal-content">
+
+            <div class="modal-text">
+
+                <span id="modal-type"
+                      class="modal-type">
+                </span>
+
+                <h2 id="modal-title"></h2>
+
+                <p id="modal-date"
+                   class="modal-date">
+                </p>
+
+                <div id="modal-description"
+                     class="modal-description">
+                </div>
+
+            </div>
+
+
+            <div id="modal-image-container"
+                 class="modal-image-container">
+
+                <img id="modal-image"
+                     src=""
+                     alt="">
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
