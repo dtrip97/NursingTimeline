@@ -20,7 +20,7 @@ const timelineItems = [
             </p>
 
             <p>
-                This marked the turning point of nursing caree towards more female nurses.
+                This marked the turning point of nursing career towards more female nurses.
             </p>
 
             <p>
