@@ -272,7 +272,7 @@ const timelineItems = [
 
         description: `
             <p>
-                Nurse’s serve in the Civil War.
+                Nurses serve in the Civil War.
             </p>
 
             <p>
